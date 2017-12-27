@@ -1,0 +1,2 @@
+01. Ctrl + Alt + Shift + E   _new layer after made a gradient background
+Photoshop will merge all of the layers into one new layer
