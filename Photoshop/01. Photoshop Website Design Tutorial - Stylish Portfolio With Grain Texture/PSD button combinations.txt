@@ -1,2 +1,11 @@
 01. Ctrl + Alt + Shift + E   _new layer after made a gradient background
 Photoshop will merge all of the layers into one new layer
+
+02. Ctrl + Click on the layer thimbnail to create a selection circle
+
+03. Click + I reverse mask
+
+04. Ctrl + J duplicate layer
+
+05. Ctrl + T Free Transform
+
