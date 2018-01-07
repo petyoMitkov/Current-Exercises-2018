@@ -2,17 +2,38 @@
     background: rgb(238, 174, 54);
 }
 
-.container {
-    background: red;
+header {
+    background: rgb(144, 194, 250);
+    text-align: center;
+    margin-top: 50px;
     height: 400px;
 }
-
-.row {
-    background: green;
-    height: 300px;
+section {    
+    .row {
+        padding-top: 60px;
+        height: 400px;
+    }
 }
 
-.col {
-    background: white;
-    height: 150px;
+.section1 {
+    background: green;
+}
+.section2 {
+    background: yellow;
+}
+
+footer {
+    margin-bottom: 200px;
+    background: red;
+    .row {
+        padding: 20px 40px 20px 40px;
+    }
+} 
+
+@media screen and (min-width: 768px ) {
+    footer {
+        .powered-by {
+            text-align: right;
+        }
+    } 
 }
