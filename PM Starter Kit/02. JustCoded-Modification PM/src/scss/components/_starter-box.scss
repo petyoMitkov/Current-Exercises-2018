@@ -1,0 +1,101 @@
+// Note: This is an example of components style, so please remove it or re-write it on your styles.
+$color-background-and-dots: rgb(16, 63, 150); ;//hsl(0, 69%, 70%);
+
+#wrapper {
+  overflow: hidden;
+}
+
+.starter-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  align-content: center;
+  text-align: center;
+  color: #fff;
+
+  h1 {
+    width: 100%;
+    font-size: 48px;
+  }
+
+  p {
+    width: 100%;
+    font-size: 24px;
+  }
+  div {
+      margin: 0 10px 0 10px;
+      padding: 20px;
+      border-radius: 20px;
+      background: hsla(210, 17%, 12%, 0.9);
+  }
+  span {
+      display: block;
+      height: 30px;
+      font-weight: bold;
+      color: rgb(248, 181, 55);
+  }
+}
+
+.entry-section {
+  height: 100vh;
+}
+
+#home-canvas {
+  height: 100%;
+}
+
+.entry-cells {
+  background: $color-background-and-dots; //hsl(210, 17%, 12%);
+  height: 100%;
+  width: 100%;
+
+  .cell {
+    float: left;
+    width: 10%;
+    height: 10%;
+    position: relative;
+
+
+    &:after {
+      content: '';
+      transform: scale(0.5);
+      animation-name: pulse;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 9px;
+      width: 9px;
+      border-radius: 100%;
+      background: $color-background-and-dots;
+      overflow: hidden;
+    }
+  }
+
+  @for $i from 0 through 100 {
+    .cell-#{$i}:after {
+      margin-left: #{random(85) - 20}px;
+      margin-top: #{random(85) - 20}px;
+      animation-duration: #{(random(100) + 100) / 60}s;
+      animation-delay: #{random(100) / 60}s;
+    }
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255,255,255, 0.9);
+  }
+  60% {
+      box-shadow: 0 0 0 15px rgba(255,255,255, 0);
+  }
+  100% {
+      box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+  }
+}
