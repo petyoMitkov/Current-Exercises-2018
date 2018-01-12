@@ -1,5 +1,4 @@
 // Note: This is an example of components style, so please remove it or re-write it on your styles.
-$color-background-and-dots: rgb(16, 63, 150); ;//hsl(0, 69%, 70%);
 
 #wrapper {
   overflow: hidden;
@@ -14,7 +13,7 @@ $color-background-and-dots: rgb(16, 63, 150); ;//hsl(0, 69%, 70%);
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;  
+  justify-content: center;
   align-content: center;
   text-align: center;
   color: #fff;
@@ -25,20 +24,7 @@ $color-background-and-dots: rgb(16, 63, 150); ;//hsl(0, 69%, 70%);
   }
 
   p {
-    width: 100%;
     font-size: 24px;
-  }
-  div {
-      margin: 0 10px 0 10px;
-      padding: 20px;
-      border-radius: 20px;
-      background: hsla(210, 17%, 12%, 0.9);
-  }
-  span {
-      display: block;
-      height: 30px;
-      font-weight: bold;
-      color: rgb(248, 181, 55);
   }
 }
 
@@ -51,7 +37,7 @@ $color-background-and-dots: rgb(16, 63, 150); ;//hsl(0, 69%, 70%);
 }
 
 .entry-cells {
-  background: $color-background-and-dots; //hsl(210, 17%, 12%);
+  background: #191e23;
   height: 100%;
   width: 100%;
 
@@ -74,7 +60,7 @@ $color-background-and-dots: rgb(16, 63, 150); ;//hsl(0, 69%, 70%);
       height: 9px;
       width: 9px;
       border-radius: 100%;
-      background: $color-background-and-dots;
+      background: #fff;
       overflow: hidden;
     }
   }
@@ -83,16 +69,16 @@ $color-background-and-dots: rgb(16, 63, 150); ;//hsl(0, 69%, 70%);
     .cell-#{$i}:after {
       margin-left: #{random(85) - 20}px;
       margin-top: #{random(85) - 20}px;
-      animation-duration: #{(random(100) + 100) / 60}s;
-      animation-delay: #{random(100) / 60}s;
+      animation-duration: #{(random(100) + 100) / 100}s;
+      animation-delay: #{random(100) / 100}s;
     }
   }
 }
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(255,255,255, 0.9);
+    box-shadow: 0 0 0 0 rgba(255,255,255, 0.6);
   }
-  60% {
+  70% {
       box-shadow: 0 0 0 15px rgba(255,255,255, 0);
   }
   100% {
