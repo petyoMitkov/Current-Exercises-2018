@@ -1,0 +1,8 @@
+.question-buttons_holder {
+    float: right;
+}
+.card-header a span {
+    display: inline-block;
+    width: 50px;
+}
+

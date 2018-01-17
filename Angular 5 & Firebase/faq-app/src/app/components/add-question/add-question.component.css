@@ -1,0 +1,15 @@
+.add-new-question {
+    text-align: center;
+}
+.form-group {
+    justify-content:  flex-end;
+    text-align: right;
+}
+
+label {
+    margin-right: 0px;
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+    font-weight: 500;
+}

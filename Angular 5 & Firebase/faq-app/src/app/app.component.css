@@ -5,6 +5,14 @@
 .app-question-list {
     margin-top: 50px;
 }
+footer {
+    background-color: #333;
+    color: white;
+    font-weight: 500;
+    height: 80px;
+    margin-top: 300px;
+    padding-top: 10px;
+}
 
 
 @media (min-width:980px) {

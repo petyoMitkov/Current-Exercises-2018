@@ -1,13 +1,11 @@
-<div class="question" *ngFor="let question of questions">
-    <div class="card">
-        <div class="card-header">
-            {{ question.text }} <a href="#" class="btn btn-link" (click)="question.hide = !question.hide"  >Show</a>
-        </div>
-        <div class="card-block" [hidden]="question.hide">
-            <p class="card-text">
-                {{ question.answer }}
-            </p>
-        </div>
-    </div>
-    <br>
+<app-add-question (questionAdded)="addQuestion($event)"></app-add-question>
+<app-question *ngFor="let question of questions" [question]="question"></app-question>
+
+
+<div id="noQuestionInStorage" class="alert alert-dark alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span>
+    </button>
+    <strong>No Questions in the Storage! </strong> Use the form above to adding questions.
 </div>

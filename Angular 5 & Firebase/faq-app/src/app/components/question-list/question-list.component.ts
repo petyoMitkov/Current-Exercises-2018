@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
 import { Question } from '../../models/Question';
 
-
 @Component({
     selector: 'app-question-list',
     templateUrl: './question-list.component.html',
@@ -17,6 +16,15 @@ export class QuestionListComponent implements OnInit {
 
     ngOnInit() {
         this.questions = this.dataService.getQuestions();
+        if (this.questions.length > 0) {
+            $("#noQuestionInStorage").fadeOut();
+        }
+
+    }
+
+    addQuestion(question:Question) {
+        this.dataService.addQuestion(question);
+        $("#noQuestionInStorage").fadeOut();
     }
 
 }
