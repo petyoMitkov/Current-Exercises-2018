@@ -5,6 +5,8 @@
 
 02. [Unit Tests Mocha, Sorted List => ./JS Exams Exercises SoftUni/01/02 Sorted List](https://petyomitkov.github.io/Current-Exercises-2018/JS%20Exams%20Exercises%20SoftUni/01.%20JS%20Advanced%20-%20Sample%20Exam%20-%2031%20Oct%202016/02.%20Sorted%20List%20-%20Unit%20testing/tests.html)
 
+03. [Storm Watcher => ./JS Exams Exercises SoftUni/01/03 Storm Watcher](https://petyomitkov.github.io/Current-Exercises-2018/JS%20Exams%20Exercises%20SoftUni/01.%20JS%20Advanced%20-%20Sample%20Exam%20-%2031%20Oct%202016/02.%20Sorted%20List%20-%20Unit%20testing/tests.html))
+
 
 
 ### In other-js folder 
