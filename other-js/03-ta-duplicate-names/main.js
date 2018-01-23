@@ -9,17 +9,13 @@ $(document).ready(function() {
         let taValue = $('#ta').val(); 
         let taArr = taValue.split("\n");
         let result = [];
-        for (let i=0; i<taValue.length; i++) {
-            for (let k=0; k<taArr.length; k++ ) {
-                if (taArr[i] === taArr[k]&& 
-                    i != k && 
-                    result.indexOf(taArr[i]) == -1) {
-                    result.push(taArr[i]);
-                }
-            }
+        for (let i=0; i<taArr.length; i++) {            
+            if (result.indexOf(taArr[i]) === -1 && taArr.indexOf(taArr[i]) != i) {
+                result.push(taArr[i]);
+            }            
         }
         appendResult(result.join(", "));
-        result.forEach((e) => console.log(e));
+        console.log(result);        
     }
     
     function appendResult(result) {
