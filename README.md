@@ -1,8 +1,6 @@
 # Current-Exercises-2018
 
-### [View GitHub repository](https://github.com/petyoMitkov/Current-Exercises-2018)
 ###### Petyo Mitkov
-
 -----------------------------------------------------------------------------------
 
 ### In JS Exams Exercises SoftUni folder
@@ -20,5 +18,6 @@
 02. [Get text between two brackes => ./04-get-text-between-two-brackets](https://petyomitkov.github.io/Current-Exercises-2018/other-js/04-get-text-between-two-brackets/index.html)
 
 
-
+-----------------------------------------------------------------------------------
+### [View GitHub repository](https://github.com/petyoMitkov/Current-Exercises-2018)
 
