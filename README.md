@@ -1,4 +1,4 @@
-# Petyo Mitkov Current-Exercises-2018 
+
 
 ### In JS Exams Exercises SoftUni folder
 01. [Summary task => ./JS Exams Exercises SoftUni/01/01 Summary](https://petyomitkov.github.io/Current-Exercises-2018/JS%20Exams%20Exercises%20SoftUni/01.%20JS%20Advanced%20-%20Sample%20Exam%20-%2031%20Oct%202016/01.%20Summary/01.%20Summary_HTML%20Skeleton.html)
