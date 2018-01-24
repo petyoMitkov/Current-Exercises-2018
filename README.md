@@ -10,14 +10,12 @@
 
 03. [Storm Watcher => ./01/03 Storm Watcher](https://petyomitkov.github.io/Current-Exercises-2018/JS%20Exams%20Exercises%20SoftUni/01.%20JS%20Advanced%20-%20Sample%20Exam%20-%2031%20Oct%202016/03.%20Storm%20Watcher/index.html)
 
----------------------------------------------------------------------------------
+
 
 ### In other-js folder 
 01. [Get TA value and return duplicated names => ./03-ta-duplicate-names](https://petyomitkov.github.io/Current-Exercises-2018/other-js/03-ta-duplicate-names/)
 
 02. [Get text between two brackes => ./04-get-text-between-two-brackets](https://petyomitkov.github.io/Current-Exercises-2018/other-js/04-get-text-between-two-brackets/index.html)
 
-
------------------------------------------------------------------------------------
 
 
