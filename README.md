@@ -12,5 +12,8 @@
 ### In other-js folder 
 01. [Get TA value and return duplicated names => ./other-js/03-ta-duplicate-names](https://petyomitkov.github.io/Current-Exercises-2018/other-js/03-ta-duplicate-names/)
 
+02. [Get text between two brackes => ./other-js/04-get-text-between-two-brackets](https://petyomitkov.github.io/Current-Exercises-2018/other-js/04-get-text-between-two-brackets/index.html)
+
+
 
 
