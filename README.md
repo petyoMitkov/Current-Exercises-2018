@@ -4,7 +4,7 @@
 -----------------------------------------------------------------------------------
 
 ### In Angular5 & Firebase folder
-01. FAQ APP - https://faq-app-247fa.firebaseapp.com
+01. [FAQ APP - https://faq-app-247fa.firebaseapp.com](https://faq-app-247fa.firebaseapp.com)
 
 
 ### In JS Exams Exercises SoftUni folder
