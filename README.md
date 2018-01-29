@@ -9,7 +9,8 @@
 02. [Unit Tests Mocha, Sorted List => ./01/02 Sorted List](https://petyomitkov.github.io/Current-Exercises-2018/JS%20Exams%20Exercises%20SoftUni/01.%20JS%20Advanced%20-%20Sample%20Exam%20-%2031%20Oct%202016/02.%20Sorted%20List%20-%20Unit%20testing/tests.html)
 
 03. [Storm Watcher => ./01/03 Storm Watcher](https://petyomitkov.github.io/Current-Exercises-2018/JS%20Exams%20Exercises%20SoftUni/01.%20JS%20Advanced%20-%20Sample%20Exam%20-%2031%20Oct%202016/03.%20Storm%20Watcher/index.html)
-
+  
+04. [Format Helper => ./02/03-format-helper](https://petyomitkov.github.io/Current-Exercises-2018/JS%20Exams%20Exercises%20SoftUni/02.%20JS%20Fundamentals%20Exam%20-%2016%20December%202016/03-format-helper/index.html)
 
 
 ### In other-js folder 
