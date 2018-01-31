@@ -4,3 +4,9 @@
 <div class="container">
     <router-outlet></router-outlet>
 </div>
+
+<ul>
+    <li class="text" *ngFor="let item of items | async">
+      {{item}}
+    </li>
+  </ul>

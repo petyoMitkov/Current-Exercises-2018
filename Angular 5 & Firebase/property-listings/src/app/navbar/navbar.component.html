@@ -1,13 +1,13 @@
 <nav class="navbar navbar-light bg-light navbar-left">
     <div class="navbar-expand">
         <ul class="nav navbar-nav">
-            <li class="active">
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
                 <a class="nav-link" [routerLink]="['/']">Home</a>
             </li>
-            <li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
                 <a class="nav-link" [routerLink]="['/listings']">Listings</a>
             </li>
-            <li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
                 <a class="nav-link" [routerLink]="['/add-listing']">Add Listing</a>
             </li>
 

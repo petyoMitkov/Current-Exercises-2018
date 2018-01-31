@@ -2,3 +2,11 @@ nav {
     max-width: 1400px;
     margin: 10px 0;
 }
+.active,
+.nav li.active:hover {
+    background: #ddd2d2;
+    z-index: 5;
+}
+.nav li:hover {
+    background: #eeecec;
+}
