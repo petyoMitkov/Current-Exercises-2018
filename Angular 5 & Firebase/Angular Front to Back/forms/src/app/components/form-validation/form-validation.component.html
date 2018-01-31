@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col">
+            <form class="form-group" novalidate #f="ngForm" (ngSubmit)="onSubmit(f)">
+                <label for="name">name</label>
+                <input type="text" class="form-control"
+                    name="name" id="" placeholder=""
+                    [(ngModel)]="user.name"
+                    #userName="ngModel"
+                    minlength="2"
+                    required>
+                <div *ngIf="userName.errors?.required && userName.touched"
+                    class="alert alert-danger"><small>name is required</small></div>
+                <div *ngIf="userName.errors?.minlength && userName.touched"
+                    class="alert alert-warning"><small>min leength is 2</small></div>
+
+                <label for="email">e-mail</label>
+                <input type="email" class="form-control"
+                    name="email" id="" aria-describedby="emailHelpId"
+                    [(ngModel)]="user.email"
+                    #userEmail="ngModel"
+                    required>
+                <div *ngIf="userEmail.errors?.required && userEmail.touched"
+                    class="elert alert-warning"><small>email is required</small></div>
+
+
+                <label for="phone">phone</label>
+                <input type="number" class="form-control"
+                    name="phone"
+                    [(ngModel)]="user.phone"
+                    #userPhone="ngModel"
+                    minlength="8">
+                <div *ngIf="userPhone.errors?.minlength && userPhone.touched"
+                    class="alert alert-warning"><small>Enter a valid phone number</small></div>
+                <br>
+                <input type="submit" class="btn btn-outline-success">
+
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="ngmodel" class="container">
+    <h1>ngModel</h1>
+    <br>
+    <div class="row">
+        <form action="" class="col-xs|sm|md|lg|xl-1-12">
+            <div class="form-goup">
+                <label for="">Name</label>
+                <input type="text" [(ngModel)]="name" name="name" class="form-control">
+            </div>
+            <div class="form-goup">
+                <label for="">Age</label>
+                <input type="number" [(ngModel)]="age" name="age" class="form-control">
+            </div>
+            <br>
+            <input type="submit" value="Submit" class="btn btn-success">
+        </form>
+
+    </div>
+    <br>
+    <h4>Name: {{name}}</h4>
+    <h4>Age: {{age}}</h4>
+
+</div>
