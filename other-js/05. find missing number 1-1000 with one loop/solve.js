@@ -13,10 +13,10 @@ function solve(numArr) {
     */
 
     // With 1 loop
-    let setComper = new Set(numArr);
+    let setCompare = new Set(numArr);
 
     for (let i = 0; i < numArr.length; i++) {
-        if (!setComper.has(i + 1)) {
+        if (!setCompare.has(i + 1)) {
             console.log(i + 1 + " missing");
         }
     }
