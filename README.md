@@ -27,6 +27,15 @@
 
 ------------------------------------------------------------------------------------------
 
+### In Photoshop folder
+
+01. [My Version of Exercise ](https://petyomitkov.github.io/Current-Exercises-2018/blob/master/Photoshop/01.%20Photoshop%20Website%20Design%20Tutorial%20-%20Stylish%20Portfolio%20With%20Grain%20Texture/Exercise%20My%20Version.jpg)
+
+02. [Fresh Juice - practice filters, mask, et.](https://petyomitkov.github.io/Current-Exercises-2018/blob/master/Photoshop/01.%20Project%20Fresh%20Juice%20-%20Petyo%20Mitkov/Fresh-Juice---Petyo-Mitkov-960_grid_12_col.jpg)
+
+
+------------------------------------------------------------------------------------------
+
 ### In other-js folder 
 01. [Get TA value and return duplicated names => ./03-ta-duplicate-names](https://petyomitkov.github.io/Current-Exercises-2018/other-js/03-ta-duplicate-names/)
 
