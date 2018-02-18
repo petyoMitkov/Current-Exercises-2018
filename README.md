@@ -14,6 +14,8 @@
 
 02. [Dropdown](https://petyomitkov.github.io/Current-Exercises-2018/CSS%20Exercises/dropdown)
 
+03. [Input + dropdown and flexbox](https://petyomitkov.github.io/Current-Exercises-2018/CSS%20Exercises/input%2Bdropdown%20and%20flexbox)
+
 --------------------------------------------------------------------------------------------
 
 ### In JS Exams Exercises SoftUni folder
