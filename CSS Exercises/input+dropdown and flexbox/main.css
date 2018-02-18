@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    background: red;;
+}
+/* ============== Search ============= */
+.serch-holder {
+    background: #43ec59;
+    flex: 1;
+    margin: auto;
+    padding-left: 20px;
+    
+}
+.search-box {
+   display: flex;
+}
+.search-box input {
+    flex: 1;
+    border: 1px solid black;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    font-size: 1.5em;
+    padding-left: 15px;
+}
+.search-box input:focus {
+    box-shadow: 0px 0px 5px #43ec59 inset;
+}
+/* Dropdown */
+.dropdown {
+    width: 140px;
+    font-size: 1em;
+    display: flex;
+    display: inline-flex;
+    height: 40px;  
+    border: 1px solid black;
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.dropdown button {
+    border: none;
+    padding: 2px 20px;
+    font-size: 1em;
+    transition: 1s;
+    outline: none;
+    margin-bottom: 6px;
+    width: 140px;
+    height: 40px;  
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+   
+}
+.fa-angle-down {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+.dropdown button:hover {
+    background: #6bdb83;
+}
+.dropdown button:focus {
+    background: #6bdb83;
+}
+.dropdown div {
+    /*display: none;*/
+    visibility: hidden;
+    transition: 0.5s; 
+    animation: fadeout 0.5s;   
+    position: absolute;
+}
+.dropdown:hover div {
+    visibility: visible;
+    animation: fadein 1s;
+    display: block;
+    position: absolute;
+    margin-top: 40px;
+    padding-top: 2px;
+}
+@keyframes fadein {
+    0% { opacity: 0.1; }
+    100% { opacity: 1; }
+}
+@keyframes fadeout {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+.dropdown div a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 5px;
+    color: black;
+    border-bottom: 1px solid #a3a3a3;
+    border-radius: 5px;
+    margin: 0 0 2px 0;
+    background: #d4d4d4;
+    box-shadow: 2px 4px 8px #aeafae;
+    z-index: 1;
+    width: 130px; 
+}
+.dropdown div a:hover {
+    background: #6bdb83;
+    padding: 8px 7px;
+    box-shadow: 0px 0px 5px inset;
+}
+
+@media (max-width: 768px) {
+    .serch-holder {
+        padding: 0;
+        margin-right: 2px;
+    }
+    .search-box input {
+        font-size: 0.8em;
+    }
+}
+/* ============== Box holder reight ============ */
+.box-holder {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background: #bed0ee;
+}
+
+.first-box {
+    width: 100px;
+    text-align: center;
+    line-height: 10px;
+}
+.second-box {
+    width: 100px;
+    text-align: center;
+    line-height: 10px;
+}
