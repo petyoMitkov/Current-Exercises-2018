@@ -8,23 +8,20 @@ import { Question } from '../../models/Question';
     styleUrls: ['./question-list.component.css']
 })
 export class QuestionListComponent implements OnInit {
-    questions:Question[];
+    questions: Question[];
 
-    constructor(public dataService:DataService) {
-
+    constructor(public dataService: DataService) {
+        //console.log(this.questions.length);
     }
 
     ngOnInit() {
         this.questions = this.dataService.getQuestions();
-        if (this.questions.length > 0) {
-            $("#noQuestionInStorage").fadeOut();
-        }
-
+        /*document.getElementById("noQuestionInStorage").style.display = "none";*/
     }
 
-    addQuestion(question:Question) {
+    addQuestion(question: Question) {
         this.dataService.addQuestion(question);
-        $("#noQuestionInStorage").fadeOut();
+        /*document.getElementById("noQuestionInStorage").style.display = "none";*/
     }
 
 }

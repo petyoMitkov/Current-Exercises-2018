@@ -1,7 +1,7 @@
 <div class="question">
     <div class="card">
         <div class="card-header">
-            {{ question.text }}
+            <div class="question-text-holder">{{ question.text }}</div>
             <div class="question-buttons_holder">
                 <a href='javascript:void(0)' class="btn btn-link" (click)="question.hide = !question.hide">
                     <span *ngIf="question.hide">Show</span>
@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="card-block" [hidden]="question.hide">
-            <p class="card-text">
+            <p class="card-text question-text-holder">
                 {{ question.answer }}
             </p>
         </div>

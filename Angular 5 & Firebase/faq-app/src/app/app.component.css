@@ -15,10 +15,11 @@ footer {
 }
 
 
-@media (min-width:980px) {
+@media (min-width:768px) {
     .app-question-list {
-        margin-top: 50px;
-        padding: 0 200px 0 200px;
+       /* margin-top: 50px;*/
+        max-width: 600px;
+
     }
 }
 

@@ -13,7 +13,7 @@ export class DataService {
                 hide: true
             },
             {
-                text: 'What is your nafavorite color?',
+                text: 'What is your favorite color?',
                 answer: 'My favorite color is red.',
                 hide: true
             },
@@ -23,6 +23,23 @@ export class DataService {
                 hide: true
             }
         ]; */
+
+        if (!localStorage.getItem('questions') || JSON.parse(localStorage.getItem('questions')).length === 0) {
+            let init = [
+                {
+                    text: 'What is your name?',
+                    answer: 'My name is Petyo Mitkov.',
+                    hide: true
+                },
+                {
+                    text: 'What is your favorite programming language?',
+                    answer: 'My favorite programming language is JavaScript.',
+                    hide: true
+                }
+            ];
+
+            localStorage.setItem('questions', JSON.stringify(init));
+        }
     }
 
     getQuestions() {
@@ -30,7 +47,7 @@ export class DataService {
         this.questions = [];
         let localData = JSON.parse(localStorage.getItem('questions'));
         this.questions = localData;
-        console.log(this.questions.length);
+        //console.log(this.questions.length);
 
         return this.questions;
     }
@@ -48,7 +65,7 @@ export class DataService {
             }
         }
         if (this.questions.length === 0) {
-            $("#noQuestionInStorage").fadeIn();
+            /*document.getElementById("noQuestionInStorage").style.display = "block";*/
         }
     }
 

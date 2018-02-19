@@ -2,10 +2,12 @@
 <app-question *ngFor="let question of questions" [question]="question"></app-question>
 
 
-<div id="noQuestionInStorage" class="alert alert-dark alert-dismissible" role="alert">
+<div *ngIf="!questions || questions.length === 0" class="alert alert-dark alert-dismissible" role="alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         <span class="sr-only">Close</span>
     </button>
     <strong>No Questions in the Storage! </strong> Use the form above to adding questions.
 </div>
+
+<!-- id="noQuestionInStorage"-->
