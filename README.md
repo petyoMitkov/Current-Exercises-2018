@@ -7,7 +7,7 @@
 
 01. [FAQ APP - https://faq-app-247fa.firebaseapp.com](https://faq-app-247fa.firebaseapp.com)
 
-02. [Proplistings - https://proplistings-cd1d9.firebaseapp.com(https://proplistings-cd1d9.firebaseapp.com)
+02. [Proplistings - https://proplistings-cd1d9.firebaseapp.com](https://proplistings-cd1d9.firebaseapp.com)
 
 --------------------------------------------------------------------------------------------
 
