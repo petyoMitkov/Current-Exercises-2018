@@ -2,6 +2,8 @@
 
 ###### By Brad Traversy Example: https://youtu.be/m5fHtGtyPgk
 
+###### To get data with Angular 5 from Cloud Firestore: https://www.youtube.com/watch?v=gUmItHaVL2w&t=310s
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
 ## Development server

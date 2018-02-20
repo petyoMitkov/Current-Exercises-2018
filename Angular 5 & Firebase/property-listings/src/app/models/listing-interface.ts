@@ -1,4 +1,5 @@
 export interface Listing {
+    name?: string;
     $key?: string;
     title?: string;
     type?: string;

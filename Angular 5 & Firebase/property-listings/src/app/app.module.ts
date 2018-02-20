@@ -1,11 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { AngularFireModule } from 'angularfire2';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
+
 import { AngularFireStorageModule } from 'angularfire2/storage';
 import { AngularFireAuthModule } from 'angularfire2/auth';
-
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -32,8 +33,8 @@ export const environment = {
 const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'listings', component: ListingsComponent },
-    { path: 'add-listing', component: AddListingComponent },
-];
+    { path: 'add-listing', component: AddListingComponent }
+]
 
 
 @NgModule({
@@ -54,6 +55,7 @@ const routes: Routes = [
         AngularFirestoreModule, // imports firebase/firestore, only needed for database features
         AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
         AngularFireStorageModule // imports firebase/storage only needed for storage features
+
     ],
     providers: [FirebaseService],
     bootstrap: [AppComponent]

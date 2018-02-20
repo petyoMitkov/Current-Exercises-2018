@@ -1,15 +1,22 @@
 import { Component, OnInit } from '@angular/core';
+import { FirebaseService } from './../services/firebase.service';
 
 @Component({
-  selector: 'app-listings',
-  templateUrl: './listings.component.html',
-  styleUrls: ['./listings.component.css']
+    selector: 'app-listings',
+    templateUrl: './listings.component.html',
+    styleUrls: ['./listings.component.css']
 })
 export class ListingsComponent implements OnInit {
+    items;
 
-  constructor() { }
+    constructor(private _firebaseService: FirebaseService) { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+        this._firebaseService.getListings().subscribe(items => {
+            console.log(items);
+            this.items = items;
+        });
+        console.log("test");
+    }
 
 }
