@@ -1,0 +1,225 @@
+header {
+    background-image: url("./../img/header/header-bg.jpg");
+    height: 900px;
+    background-position: center;
+   
+    flex-wrap: wrap;
+}
+
+/* =========== Header Nav ============= */
+nav {
+    /*background: rgba(51, 51, 51, 0.486);*/
+    background: hsla(0, 0%, 27%, 0.5);
+    height: 70px;
+    color: white;
+    padding: 0 170px;
+    display: flex;
+    align-items: center;
+    position: sticky ;
+    top: 0px;
+    z-index: 100;
+   
+}
+@font-face {
+    font-family: "scriptin";
+    src: url("./../fonts/scriptina/SCRIPTIN.ttf") format("truetype");
+}
+.nav-brand {
+    flex: 1;
+    font-family: scriptin, sans-serif;
+    font-size: 30px;
+    /*background:green;*/
+    position: relative;
+    top: -5px;
+}
+
+.mobile-nav-button {
+    display: none;
+}
+.nav-holder {
+    flex: 10;
+    /*background: red;*/
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-size: 14px;
+    letter-spacing: 4.2px;
+}
+.nav-holder ul li {
+    display: inline-block;
+    line-height: 70px;
+}
+.nav-holder ul li a {
+    display: block;
+    padding: 0 25px;
+}
+.nav-holder ul a:hover {
+    background: rgba(71, 71, 71, 0.788);
+    line-height: 70px;
+}
+.nav-icons {
+    flex: 1;
+    /*background: blue;*/
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icons img:hover {
+    background: #333;
+}
+
+
+/* TODO: Add Font Awsome */
+
+/* ============= Nav Style =========== */
+@media (max-width: 1370px) {
+    nav {
+        padding: 0 120px;
+    }
+    .nav-holder ul li a {
+        padding: 0 5px;  
+            
+    }
+}
+@media (max-width: 1080px) {
+    nav {
+        padding: 0 40px;
+    }
+    .nav-holder ul li a {
+        padding: 0 5px;        
+    }
+    .nav-holder {
+        letter-spacing: 3px;
+    }
+}
+
+/* ============= Nav Mobile Style =========== */
+@media (max-width: 900px) {
+    nav {
+        position: fixed;
+        overflow: auto;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        z-index: 10;
+    }
+    .nav-brand {
+        display: block !important;
+        width: 100vw;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 11;
+        text-align: center;
+        background: tomato;
+        height: 70px;
+    }
+    .nav-brand p {
+        position: relative;
+        top: 10px;
+    }
+    nav {
+        display: flex;
+        top: 0;
+    }
+    .nav-holder {
+        letter-spacing: 0px;        
+        margin: auto;
+    }
+    .nav-holder ul li a {
+        width: 100vw;
+        padding: 0;
+        border-bottom: 1px solid white;
+    }
+    .nav-holder ul {        
+        position: absolute;
+        top: 70px;
+        left: 0px; 
+        background:#333;  
+        z-index: 10;    
+    }
+    .nav-holder ul span {
+        display: none;
+    }
+    .nav-icons {
+        position: absolute;
+        z-index: 12;
+        top: 426px;
+        line-height: 70px;
+        background:#333;
+        width: 100vw;
+        justify-content: space-around;
+    }
+    .mobile-nav-button {
+        display: block;
+        content: "55555555";
+        z-index: 150;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        height: 70px;
+        /*background: green;*/
+        font-size: 30px;
+        width: 30px;
+        line-height: 25px;
+
+    }
+
+    
+}
+
+
+
+/* ////////////////////// Header Content /////////////////////// */
+.header-center-sign {
+    color: white;
+    font-size: 6em;
+    height: 810px;
+    /*background: rgba(209, 65, 65, 0.829);*/
+    text-align: center;
+    display: flex;   
+    font-family: 'Playfair Display', serif;
+    flex-direction: column;
+    align-items: center;
+}
+.header-center-sign h1 {
+    margin: auto;
+    position: relative;
+    top: -100px;
+    font-size: 92px;
+    letter-spacing: 7.4px;
+    padding-top: 20px;
+    padding-left: 8px;
+   
+
+}
+.header-center-sign div {
+    position: relative;
+    top: -260px;
+    max-width: 550px;;
+    font-size: 24px;
+    font-family:  sans-serif;
+    line-height: 40px;
+    font-weight: -100;
+    letter-spacing: 2px;
+}
+.header-center-sign a {
+    border: none;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 14px;
+    width: 200px;
+    height: 50px;
+    letter-spacing: 4px;
+    font-weight: 900;
+    position: relative;
+    top: 66px;
+    border: 1px dashed rgba(255, 255, 255, 0.363);
+    outline: none;
+    background: hsla(0, 0%, 27%, 0.5);
+}
+
+.header-center-sign a:hover {
+    background: rgba(71, 71, 71, 0.788);
+}
+
