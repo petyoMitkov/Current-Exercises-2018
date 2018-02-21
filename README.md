@@ -28,9 +28,16 @@
 
 03. [Storm Watcher => ./01/03 Storm Watcher](https://petyomitkov.github.io/Current-Exercises-2018/JS%20Exams%20Exercises%20SoftUni/01.%20JS%20Advanced%20-%20Sample%20Exam%20-%2031%20Oct%202016/03.%20Storm%20Watcher/index.html)
   
-04. [Format Helper => ./02/03-format-helper](https://petyomitkov.github.io/Current-Exercises-2018/JS%20Exams%20Exercises%20SoftUni/02.%20JS%20Fundamentals%20Exam%20-%2016%20December%202016/03-format-helper/index.html)
+04. [Format Helper => ./02/03-format-helper](https://petyomitkov.github.io/Current-Exercises-2018/JS%20Exams%20Exercises%20SoftUni/02.%20JS%20Fundamentals%20Exam%20-%2016%20December%202016/03-format-helper/index.html
 
-------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+
+### In PSD to HTML folder
+
+01. [The Bakery Website - Free PSD](https://petyomitkov.github.io/Current-Exercises-2018/PSD%20to%20HTML/01.%20The%20Bakery%20Website)
+
+
+--------------------------------------------------------------------------------------------
 
 ### In Photoshop folder
 
