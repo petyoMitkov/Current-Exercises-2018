@@ -3,9 +3,11 @@
 Example BG to EN
 -----------------------------------------------------------------------------------
 
-YouTube link: https://www.youtube.com/watch?v=eifU5C11WLI
+Made by following the YouTube Tutorial link: https://www.youtube.com/watch?v=eifU5C11WLI
 
-Console commands and steps
+Link to test result in dist folder: https://petyomitkov.github.io/Current-Exercises-2018/Angular%205%20%26%20Firebase/i18n%20-%20translate%20from%20BG%20to%20EN/dist
+
+## Console commands and steps
 
 1. In package.json in scripts add: "extract": "ng xi18n --outputPath=src/locale"  // create message file
 2. Add i18n="@@topWelcome"
@@ -18,6 +20,7 @@ Build with npm run buil:en => "build:en": "ng build --aot --locale en --i18n-for
 
 !!! ERROR: If have "Failed to load resource: net::ERR_FILE_NOT_FOUND" in index.html change <base href="/"> to <base href="./"> for more info view error-solve folder :) 
 
+If you need mor info for serve and build commands: https://github.com/angular/angular-cli/wiki/stories-internationalization
 
 -----------------------------------------------------------------------------------
 
