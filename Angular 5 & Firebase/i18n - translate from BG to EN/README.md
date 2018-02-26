@@ -14,7 +14,9 @@ Console commands and steps
 5. edit the messages file and added  <target> Hi <id="topWelcome"> </target>
 6. Add to package.json: "start:en": "ng serve --aot --i18nFile=src/locale/messages.en.xlf --i18nFormat=xlf --locale=en"
 
-Build with npm run buil:en => "build:en": "ng build --aot --i18nFile=src/locale/messages.en.xlf --i18nFormat=xlf --locale=en"
+Build with npm run buil:en => "build:en": "ng build --aot --locale en --i18n-format xlf --i18n-file src/locale/messages.en.xlf --missing-translation error"
+
+!!! ERROR: If have "Failed to load resource: net::ERR_FILE_NOT_FOUND" in index.html change <base href="/"> to <base href="./"> for more info view error-solve folder :) 
 
 
 -----------------------------------------------------------------------------------
